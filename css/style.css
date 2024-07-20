@@ -1,0 +1,158 @@
+/* pixels/s vertical */
+/* pixels/s horizontal */
+/* max pixels */
+/**/
+html {
+    background: #000;
+    min-height: 100vh;
+  }
+  
+  html::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    user-select: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640px 480px' width='640px' height='480px'>   %3Cstyle> circle { r: 3px; } %3C/style>   %3Cg fill='%239098a0'> %3Ccircle cx='591px' cy='99px' /> %3Ccircle cx='591px' cy='363px' /> %3Ccircle cx='543px' cy='123px' /> %3Ccircle cx='525px' cy='15px' /> %3Ccircle cx='519px' cy='195px' /> %3Ccircle cx='501px' cy='183px' /> %3Ccircle cx='465px' cy='231px' /> %3Ccircle cx='465px' cy='375px' /> %3Ccircle cx='453px' cy='159px' /> %3Ccircle cx='447px' cy='435px' /> %3Ccircle cx='435px' cy='3px' /> %3Ccircle cx='399px' cy='123px' /> %3Ccircle cx='387px' cy='171px' /> %3Ccircle cx='381px' cy='207px' /> %3Ccircle cx='63px' cy='111px' /> %3Ccircle cx='357px' cy='471px' /> %3Ccircle cx='345px' cy='279px' /> %3Ccircle cx='345px' cy='63px' /> %3Ccircle cx='333px' cy='111px' /> %3Ccircle cx='321px' cy='183px' /> %3Ccircle cx='219px' cy='243px' /> %3Ccircle cx='213px' cy='375px' /> %3Ccircle cx='207px' cy='171px' /> %3Ccircle cx='189px' cy='111px' /> %3Ccircle cx='189px' cy='351px' /> %3Ccircle cx='177px' cy='423px' /> %3Ccircle cx='177px' cy='327px' /> %3Ccircle cx='141px' cy='171px' /> %3Ccircle cx='111px' cy='339px' /> %3Ccircle cx='93px' cy='255px' /> %3Ccircle cx='81px' cy='39px' /> %3Ccircle cx='57px' cy='447px' /> %3Ccircle cx='57px' cy='351px' /> %3Ccircle cx='75px' cy='411px' /> %3Ccircle cx='33px' cy='225px' /> %3Ccircle cx='33px' cy='279px' /> %3Ccircle cx='165px' cy='15px' /> %3Ccircle cx='27px' cy='387px' /> %3Ccircle cx='21px' cy='39px' />   %3C/g>%3C/svg>"), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640px 480px' width='640px' height='480px'>   %3Cstyle> circle { r: 3px; } %3C/style>   %3Cg fill='%236e757c'> %3Ccircle cx='591px' cy='99px' /> %3Ccircle cx='591px' cy='363px' /> %3Ccircle cx='543px' cy='123px' /> %3Ccircle cx='525px' cy='15px' /> %3Ccircle cx='519px' cy='195px' /> %3Ccircle cx='501px' cy='183px' /> %3Ccircle cx='465px' cy='231px' /> %3Ccircle cx='465px' cy='375px' /> %3Ccircle cx='453px' cy='159px' /> %3Ccircle cx='447px' cy='435px' /> %3Ccircle cx='435px' cy='3px' /> %3Ccircle cx='399px' cy='123px' /> %3Ccircle cx='387px' cy='171px' /> %3Ccircle cx='381px' cy='207px' /> %3Ccircle cx='63px' cy='111px' /> %3Ccircle cx='357px' cy='471px' /> %3Ccircle cx='345px' cy='279px' /> %3Ccircle cx='345px' cy='63px' /> %3Ccircle cx='333px' cy='111px' /> %3Ccircle cx='321px' cy='183px' /> %3Ccircle cx='219px' cy='243px' /> %3Ccircle cx='213px' cy='375px' /> %3Ccircle cx='207px' cy='171px' /> %3Ccircle cx='189px' cy='111px' /> %3Ccircle cx='189px' cy='351px' /> %3Ccircle cx='177px' cy='423px' /> %3Ccircle cx='177px' cy='327px' /> %3Ccircle cx='141px' cy='171px' /> %3Ccircle cx='111px' cy='339px' /> %3Ccircle cx='93px' cy='255px' /> %3Ccircle cx='81px' cy='39px' /> %3Ccircle cx='57px' cy='447px' /> %3Ccircle cx='57px' cy='351px' /> %3Ccircle cx='75px' cy='411px' /> %3Ccircle cx='33px' cy='225px' /> %3Ccircle cx='33px' cy='279px' /> %3Ccircle cx='165px' cy='15px' /> %3Ccircle cx='27px' cy='387px' /> %3Ccircle cx='21px' cy='39px' />   %3C/g>%3C/svg>"), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640px 480px' width='640px' height='480px'>   %3Cstyle> circle { r: 3px; } %3C/style>   %3Cg fill='%233e434a'> %3Ccircle cx='591px' cy='99px' /> %3Ccircle cx='591px' cy='363px' /> %3Ccircle cx='543px' cy='123px' /> %3Ccircle cx='525px' cy='15px' /> %3Ccircle cx='519px' cy='195px' /> %3Ccircle cx='501px' cy='183px' /> %3Ccircle cx='465px' cy='231px' /> %3Ccircle cx='465px' cy='375px' /> %3Ccircle cx='453px' cy='159px' /> %3Ccircle cx='447px' cy='435px' /> %3Ccircle cx='435px' cy='3px' /> %3Ccircle cx='399px' cy='123px' /> %3Ccircle cx='387px' cy='171px' /> %3Ccircle cx='381px' cy='207px' /> %3Ccircle cx='63px' cy='111px' /> %3Ccircle cx='357px' cy='471px' /> %3Ccircle cx='345px' cy='279px' /> %3Ccircle cx='345px' cy='63px' /> %3Ccircle cx='333px' cy='111px' /> %3Ccircle cx='321px' cy='183px' /> %3Ccircle cx='219px' cy='243px' /> %3Ccircle cx='213px' cy='375px' /> %3Ccircle cx='207px' cy='171px' /> %3Ccircle cx='189px' cy='111px' /> %3Ccircle cx='189px' cy='351px' /> %3Ccircle cx='177px' cy='423px' /> %3Ccircle cx='177px' cy='327px' /> %3Ccircle cx='141px' cy='171px' /> %3Ccircle cx='111px' cy='339px' /> %3Ccircle cx='93px' cy='255px' /> %3Ccircle cx='81px' cy='39px' /> %3Ccircle cx='57px' cy='447px' /> %3Ccircle cx='57px' cy='351px' /> %3Ccircle cx='75px' cy='411px' /> %3Ccircle cx='33px' cy='225px' /> %3Ccircle cx='33px' cy='279px' /> %3Ccircle cx='165px' cy='15px' /> %3Ccircle cx='27px' cy='387px' /> %3Ccircle cx='21px' cy='39px' />   %3C/g>%3C/svg>");
+    background-size: 640px 480px, 480px 360px, 256px 192px;
+    --snowfall-pos-x: 0;
+    --snowfall-pos-y: 0;
+    background-repeat: repeat;
+    background-position: 0 0;
+  }
+  
+  /* no-op condition for scoping */
+  html::after {
+    animation: snowfall-no-composition 96s linear infinite;
+  }
+  
+  @keyframes snowfall-no-composition {
+    0% {
+      background-position: 0 0, 0 0, 0 0;
+    }
+    3.125% {
+      background-position: -60px 480px, -45px 360px, -24px 192px;
+    }
+    33.3333333333% {
+      background-position: -640px 5120px, -480px 3840px, -256px 2048px;
+    }
+    100% {
+      background-position: -1920px 15360px, -1440px 11520px, -768px 6144px;
+    }
+  }
+  @supports (animation-composition: replace, add, add) {
+    /**/
+    html::after {
+      animation: snowfall-x 32s linear infinite, snowfall-y 3s linear infinite, snowfall-x-wobble-1 8s cubic-bezier(0.35, 0, 0.65, 0.99) infinite, snowfall-x-wobble-2 8s cubic-bezier(0.35, 0, 0.65, 0.99) infinite;
+      animation-composition: replace, add, add, add;
+      animation-delay: 0s, 0s, 0s, 0.23s;
+    }
+  }
+  @keyframes snowfall-y {
+    from {
+      background-position: 0 0, 0 0, 0 0;
+    }
+    to {
+      background-position: 0 480px, 0 360px, 0 192px;
+    }
+  }
+  @keyframes snowfall-x {
+    from {
+      background-position: 0 0, 0 0, 0 0;
+    }
+    to {
+      background-position: -640px 0, -480px 0, -256px 0;
+    }
+  }
+  @keyframes snowfall-x-wobble-1 {
+    0% {
+      background-position: 16px 0;
+    }
+    50% {
+      background-position: -16px 0;
+    }
+    100% {
+      background-position: 16px 0;
+    }
+  }
+  @keyframes snowfall-x-wobble-2 {
+    0% {
+      background-position: 0 0, 12px 0;
+    }
+    50% {
+      background-position: 0 0, -12px 0;
+    }
+    100% {
+      background-position: 0 0, 12px 0;
+    }
+  }
+  @keyframes snowfall-x-wobble {
+    0% {
+      background-position: 16px 0, 12px 0, 6.4px 0;
+    }
+    50% {
+      background-position: -16px 0, -12px 0, -6.4px 0;
+    }
+    100% {
+      background-position: 16px 0, 12px 0, 6.4px 0;
+    }
+  }
+  /* theming */
+  html {
+    background: #080A10;
+    color: #FFF;
+    font-family: Calibri, sans-serif;
+    padding: 2em;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1em;
+    background: #111;
+    border: 1em solid #222;
+  }
+  
+  *:first-child {
+    margin-top: 0;
+  }
+  
+  *:last-child {
+    margin-bottom: 0;
+  }
+  
+  ul > li {
+    margin: 1em 0;
+  }
+  
+  a:link {
+    color: #7AF;
+  }
+  
+  a:visited {
+    color: #C5F;
+  }
+  
+  pre {
+    padding: 0.5em;
+    border: 1px solid #222;
+    margin: 1em 2em;
+  }
+  
+  section + section {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 2px solid #222;
+  }
+
+
+  .bg_img_grn,html{
+    background: url("../images/plant-6917093_1280.jpg");
+    /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.32); */
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
